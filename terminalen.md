@@ -85,7 +85,7 @@ cd ../javascript1
 Vissa filer eller mappar kan vara *dolda*. Det innebär att de inte syns varken i Finder eller Explorer, eller när du skriver `ls`. Unix-baserade system brukar göra filer som börjar med punkt osynliga. Exempel: `.git`-mappen.
 
 Göra dolda filer synliga med explorer:
-![Visa dolda filer](img/explorer-hidden-files.png)
+![Visa dolda filer](explorer-hidden-files.png)
 
 
 
