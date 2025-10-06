@@ -1,5 +1,3 @@
-[Innehåll](README.md)
-
 # Terminalen
 
 ### 1 Historia
@@ -17,16 +15,16 @@ Innan datormusen fanns, så använde man bara tangentbordet för att styra dator
 	+ PowerShell (Windows)
 
 ---
-**Övning 1**: starta ett terminalprogram på din dator.
+**Övning**: starta ett terminalprogram på din dator.
 
-**Övning 2**: om du använder Windows, ladda ner och installera Git Bash (följer med Git).
+**Övning**: om du använder Windows, ladda ner och installera Git Bash (följer med Git).
 
 [Download Git + Git Bash](https://git-scm.com/downloads) |
 
 ---
 ### 2 Exempel - Git Bash
 ---
-![git bash](img/git-bash.png)
+![git bash](git-bash.png)
 Git Bash är en bra, kompetent terminal som följer med när man installerar Git.
 
 Gul färg visar vilken mapp man befinner sig i för tillfället.
@@ -36,14 +34,6 @@ Ljusblå färg dyker upp om du befinner dig i ett git-repository. Den visar vilk
 Det vita dollartecknet på raden efter kallas för *prompt*. Det är där man skriver in kommandon.
 
 ---
-![cmder](img/cmder.png)
-Cmd (Commander) är en mycket kompetent terminal som baseras på bash. Precis som git bash visar den vilken mapp man befinner sig i. Git-branchen visas med röd färg. Prompten är den grekiska bokstaven "lambda".
-
----
-*Tips! Terminalen i macOS har stöd för färger.*
-
----
-
 
 ### 3 Filer, mappar, kataloger
 Filerna i en dator ligger ordnade i mappar. Mappar kan innehålla andra mappar.
@@ -75,7 +65,7 @@ Windows har sökvägar som börjar med `C:\Användare\` eller `"Mina dokument"`.
 #### Exempel
 ```bash
 # Gå in i mappen exercise-1
-cd skola/javascript1/exercise-1/
+cd skola/css/exercise-1/
 
 # Nu är aktuell mapp: exercise-1 (inklusive hela sökvägen)
 # Punkt är ett alias för sökvägen
@@ -84,10 +74,10 @@ cd .
 
 # För att backa ett steg (gå "upp" ett steg) skriver vi två punkter
 cd ..
-# Nu är aktuell mapp: javascript1
+# Nu är aktuell mapp: css
 
-cd ../javascript2
-# Nu har vi bytt sökväg till: skola/javascript2/
+cd ../javascript1
+# Nu har vi bytt sökväg till: skola/javascript1/
 ```
 
 #### Dolda filer
@@ -100,11 +90,7 @@ Göra dolda filer synliga med explorer:
 
 
 ---
-**Övning 3**: öppna Finder eller Explorer. Skapa en mapp med namnet "Skola". Gå in i den mappen och skapa en mapp för din nuvarande kurs. Skapa en till mapp inuti den med namnet "terminalen".
-
-**Övning 4**: öppna en terminal inuti din mapp "terminalen". (Tips! Prova att högerklicka på mappen i Explorer.)
-
-![Högerklicka på en mapp](img/right-click-open-terminal.png)
+**Övning**: öppna Finder eller Explorer. Skapa en mapp med namnet "Skola". Gå in i den mappen och skapa en mapp för din nuvarande kurs. Skapa en till mapp inuti den med namnet "terminalen".
 
 ---
 
@@ -127,6 +113,6 @@ De flesta terminaler har liknande kortkommandon.
 |`sudo kommando` |På macOS och Linux behöver man ibland autentisera sig som adminstratör. Om du får felet "Permission denied", prova att lägga till `sudo` först på raden. |
 
 ---
-**Övning 5**: träna på att skriva kommandon i terminalen, i din mapp "terminalen".
+**Övning**: träna på att skriva kommandon i terminalen, i din mapp "terminalen".
 
 ---
