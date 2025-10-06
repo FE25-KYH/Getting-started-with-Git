@@ -5,11 +5,6 @@
 ### 1 Historia
 Innan datormusen fanns, så använde man bara tangentbordet för att styra datorn. Datorerna hade inte heller tillräcklig prestanda för att visa grafiska gränssnitt. Man använde så kallade **terminalprogram**.
 
-**Bash-familjen** utvecklades för Unix. (macOS bygger bygger på en Unix-variant. Därför baserar sig terminalen på Bash.)
-
-**Z shell** är en terminal som har i stort sett samma funktionalitet som Bash.
-
-**Cmd-familjen** finns bara på Windows. Den utvecklades av Microsoft och saknar mycket av den funktionalitet som finns i Bash.
 
 #### Kända terminalprogram
 + Bash- och Zsh-familjerna
@@ -24,19 +19,12 @@ Innan datormusen fanns, så använde man bara tangentbordet för att styra dator
 ---
 **Övning 1**: starta ett terminalprogram på din dator.
 
-**Övning 2**: om du använder Windows, ladda ner och installera
-antingen Git Bash (följer med Git) eller Cmder.
+**Övning 2**: om du använder Windows, ladda ner och installera Git Bash (följer med Git).
 
 [Download Git + Git Bash](https://git-scm.com/downloads) |
-[Download cmder](https://cmder.net/) |
-[Download ohmyz](https://ohmyz.sh/)
 
 ---
-### 2 Exempel - terminaler
-
-![cmd](img/cmd.png)
-Cmd/Kommandotolken är Windows inbyggda terminal. Den har inga funktioner som hjälper utvecklare.
-
+### 2 Exempel - Git Bash
 ---
 ![git bash](img/git-bash.png)
 Git Bash är en bra, kompetent terminal som följer med när man installerar Git.
