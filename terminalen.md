@@ -25,6 +25,7 @@ Innan datormusen fanns, så använde man bara tangentbordet för att styra dator
 ### 2 Exempel - Git Bash
 ---
 ![git bash](git-bash.png)
+
 Git Bash är en bra, kompetent terminal som följer med när man installerar Git.
 
 Gul färg visar vilken mapp man befinner sig i för tillfället.
